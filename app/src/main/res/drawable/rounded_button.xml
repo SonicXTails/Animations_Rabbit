@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Закругление углов -->
+    <corners android:radius="16dp"/>
+
+    <!-- Цвет фона (оранжевый) -->
+    <solid android:color="#FFA500"/>
+
+    <!-- Граница кнопки (опционально) -->
+    <stroke
+        android:width="2dp"
+        android:color="#FF8C00"/>
+</shape>

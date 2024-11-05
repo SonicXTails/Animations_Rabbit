@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Тема приложения -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Основные цвета -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="RoundedButton">
+        <!-- Устанавливаем фоновое изображение с закруглением -->
+        <item name="android:background">@drawable/rounded_button</item>
+
+        <!-- Цвет текста (светлый) -->
+        <item name="android:textColor">#FFFFFF</item>
+
+        <!-- Дополнительные параметры текста -->
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+
+        <!-- Добавляем внутренние отступы -->
+        <item name="android:padding">10dp</item>
+    </style>
+</resources>
